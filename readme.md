@@ -1,10 +1,3 @@
-# GvHD github
-
-: 100
-Archive: No
-Created: March 15, 2023 11:58 AM
-Tags: documentation, reference, resource, technical
-
 Code to reproduce scRNA-seq results contained in 
 
 > Sacirbegovic F, Günther M, Greco A, Zhao D, Wang X, Zhou M, Rosenberger S, Oberbarnscheidt MH, Held W, McNiff J, Jain D, Höfer T, Shlomchik WD. Graft-versus-host disease is locally maintained in target tissues by resident progenitor-like T cells. Immunity. 2023 Feb 14;56(2):369-385.e6. doi: 10.1016/j.immuni.2023.01.003. Epub 2023 Jan 30. PMID: 36720219.
