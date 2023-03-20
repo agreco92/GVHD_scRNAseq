@@ -5,7 +5,7 @@ Code to reproduce scRNA-seq results contained in
 
 The repository contains two folders: `code` and `data`. 
 
-- Scripts in `code/`  are numbered based on the order of execution. The working directory for running the scripts is the one containing both `code/` and `data/` . In order to run the analysis, please generate count matrices for GEX and HTO matrices using standard Seurat or bioconductor pipeline.
+- Scripts in `code/`  are numbered based on the order of execution. The working directory for running the scripts is the one containing both `code/` and `data/` . In order to run the analysis, please generate count matrices for GEX and HTO matrices using standard `Seurat::Read10X` or Bioconductor equivalent `DropletUtils::read10xCounts` pipeline.
 - Data needs to be downloaded from GEO under the accession number **GSE207485**. In the `data/other/` folder, you’ll find a list of useful files for the analysis:
     - Information about the R version and relative libraries, in `data/other/renv.lock` . Instructions on how to use this file and recreate the R environment are [here](https://rstudio.github.io/renv/articles/renv.html)
     - `scGSEA_cycle` file contain cell cycle estimated as explained in [this paper](https://pubmed.ncbi.nlm.nih.gov/32783885/)
